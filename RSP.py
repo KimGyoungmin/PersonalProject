@@ -21,6 +21,7 @@ while game_exit:  ## True값이 지속되는 동안
                 if chk_regame == 'y' or chk_regame == 'Y':   ## 만약 y나 Y를 입력했을시
                     com = random.choice(rsp)   ## 컴퓨터의 값을 다시 새로 넣어준다
                     print("게임을 다시 시작합니다!")
+                    print(f"승: {w_cnt} 패: {l_cnt} 무승부: {d_cnt}")
                     break   ## 재실행 여부에서 벗어남
                 elif chk_regame == 'n' or chk_regame == 'N':   ## 만약 게임 종료 키를 눌럿다면
                     game_exit = False   ## 게임 동작 여부를 False로 전환
@@ -37,6 +38,7 @@ while game_exit:  ## True값이 지속되는 동안
                 if chk_regame == 'y' or chk_regame == 'Y':
                     com = random.choice(rsp)
                     print("게임을 다시 시작합니다!")
+                    print(f"승: {w_cnt} 패: {l_cnt} 무승부: {d_cnt}")
                     break
                 elif chk_regame == 'n' or chk_regame == 'N':
                     game_exit = False
@@ -53,6 +55,7 @@ while game_exit:  ## True값이 지속되는 동안
                 if chk_regame == 'y' or chk_regame == 'Y':
                     com = random.choice(rsp)
                     print("게임을 다시 시작합니다!")
+                    print(f"승: {w_cnt} 패: {l_cnt} 무승부: {d_cnt}")
                     break
                 elif chk_regame == 'n' or chk_regame == 'N':
                     game_exit = False
